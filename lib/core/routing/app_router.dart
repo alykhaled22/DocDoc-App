@@ -1,7 +1,7 @@
+import 'package:doc_app/core/routing/routes.dart';
+import 'package:doc_app/features/login/ui/login_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:health_quest/core/routing/routes.dart';
-import 'package:health_quest/features/login/ui/login_screen.dart';
-import 'package:health_quest/features/onboarding/onboarding_screen.dart';
+import 'package:doc_app/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
